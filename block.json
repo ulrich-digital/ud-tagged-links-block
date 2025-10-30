@@ -1,0 +1,29 @@
+{
+    "apiVersion": 2,
+    "name": "ud/tag-basierte-links",
+    "title": "Tag-basierte Links",
+    "category": "text",
+    "icon": "admin-links",
+    "description": "Zeigt automatisch alle Link-Blöcke an, die mit den gewählten Tags verknüpft sind.",
+    "editorStyle": "file:./build/editor-style.css",
+    "style": "file:./build/frontend-style.css",
+    "editorScript": "file:./build/editor-script.js",
+    "script": "file:./build/frontend-script.js",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "selectedPageId": {
+            "type": "integer",
+            "default": null
+        },
+        "selectedTags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "default": []
+        }
+    },
+    "render": "file:./includes/render.php"
+}

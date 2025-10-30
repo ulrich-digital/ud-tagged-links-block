@@ -1,0 +1,51 @@
+/* =============================================================== *\
+    Editor
+\* =============================================================== */
+.block-editor-block-list__block.wp-block-ud-tag-basierte-links {
+	color: var(--wp--preset--color--ui-neutral-400);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100%;
+	background: #fff;
+	border: 1px solid var(--wp--preset--color--ui-neutral-500);
+	border-radius: 16px;
+	padding: 12px;
+	margin: 0.5rem 0;
+	box-sizing: border-box;
+	font-family:
+		system-ui,
+		-apple-system,
+		"Segoe UI",
+		Roboto,
+		sans-serif;
+
+	.tagged-links-block__row {
+		&.tagged-links-block__row--options-toggle {
+			display: flex;
+			justify-content: space-between;
+
+			button {
+				display: flex;
+				flex-direction: row-reverse;
+			}
+		}
+	}
+
+	h2 {
+		font-size: 1rem;
+		margin: 0;
+		font-weight: 600;
+		color: black;
+	}
+
+	.tagged-links-block__label {
+		font-size: 0.88rem;
+	}
+
+	.components-form-token-field__label {
+		display: none !important;
+	}
+}
