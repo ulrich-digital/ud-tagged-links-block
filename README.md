@@ -25,6 +25,8 @@ Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zus
   - Auswahl von Seite und Tags direkt im Block-Editor
   - Getrennte Editor- und Frontend-Skripte für saubere Performance
 
+---
+
 ## Frontend- und Editor-Ansicht
 
 ![Frontend-Ansicht](./assets/ud-tagged-links-block.png)
@@ -32,6 +34,8 @@ Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zus
 
 ![Editor-Ansicht](./assets/editor-view.png)
 *Abbildung: Ansicht im Editor*
+
+---
 
 ## Technische Details
 
