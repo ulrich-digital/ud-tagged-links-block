@@ -3,7 +3,6 @@
 Dynamischer Block zur Anzeige aller **UD-Link-Blöcke**, die mit bestimmten **Tags** verknüpft sind.
 Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zusammenzustellen – ohne doppelte Pflege der Inhalte.
 
----
 
 ## Funktionen
 
@@ -25,7 +24,6 @@ Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zus
   - Auswahl von Seite und Tags direkt im Block-Editor
   - Getrennte Editor- und Frontend-Skripte für saubere Performance
 
----
 
 ## Frontend- und Editor-Ansicht
 
@@ -35,7 +33,6 @@ Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zus
 ![Editor-Ansicht](./assets/editor-view.png)
 *Abbildung: Ansicht im Editor*
 
----
 
 ## Technische Details
 
@@ -50,34 +47,19 @@ Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zus
 - **Verarbeitet:**
   - `ud/link-block` (direkt oder verschachtelt in `core/group`, `core/columns`, `core/cover`)
 
----
 
-## Installation
 
-1. Plugin-Ordner `ud-tagged-links-block` in `wp-content/plugins/` kopieren
-2. Im WordPress-Backend unter **Plugins → Installierte Plugins** aktivieren
-3. Im Block-Editor den Block **„Tag-basierte Links“** einfügen und konfigurieren
 
----
 
-## Anforderungen
-
-- WordPress ≥ 6.7
-- PHP ≥ 7.4
-- Aktivierte UD-Plugins:
-  - `ud-link-block`
-  - `ud-shared-api`
-
----
 
 ## Autor
 
-**ulrich.digital gmbh**
-[https://ulrich.digital](https://ulrich.digital)
+[ulrich.digital gmbh](https://ulrich.digital)
 
----
 
 ## Lizenz
 
 GPL v2 or later
 [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+
+
