@@ -17,7 +17,8 @@ Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zus
 
 - **Abhängigkeiten:**
   - Benötigt das Plugin **`ud-link-block`** (liefert die eigentlichen Link-Instanzen)
-  - Setzt **`ud-shared-api`** voraus (liefert REST-Endpunkte für Seiten- und Tag-Auswahl)
+  - Benötigt das Plugin **`ud-shared-api`** (liefert REST-Endpunkte für Seiten- und Tag-Auswahl)
+
 - **Verarbeitet:**
   - `ud/link-block` (direkt oder verschachtelt in `core/group`, `core/columns`, `core/cover`)
 
