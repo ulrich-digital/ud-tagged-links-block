@@ -15,32 +15,6 @@ Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zus
   - Optional kann eine andere Seite gewählt werden, um deren Link-Blöcke anzuzeigen
   - Ideal für themenspezifische Übersichtsseiten oder Sammlungen
 
-
-- **Serverseitiges Rendering**
-  - Dynamische Ausgabe über `render.php`
-  - Änderungen an Link-Blöcken oder Tags werden automatisch übernommen
-
-- **Editor-Integration**
-  - Auswahl von Seite und Tags direkt im Block-Editor
-  - Getrennte Editor- und Frontend-Skripte für saubere Performance
-
-
-## Frontend- und Editor-Ansicht
-
-![Frontend-Ansicht](./assets/ud-tagged-links-block.png)
-*Abbildung: Ansicht im Frontend*
-
-![Editor-Ansicht](./assets/editor-view.png)
-*Abbildung: Ansicht im Editor*
-
-
-## Technische Details
-
-- **Blockname:** `ud/tag-basierte-links`
-- **Render-Datei:** `includes/render.php`
-- **Attribute:**
-  - `selectedPageId` *(integer)* – gewählte Seite
-  - `selectedTags` *(array)* – ausgewählte Tags
 - **Abhängigkeiten:**
   - Benötigt das Plugin **`ud-link-block`** (liefert die eigentlichen Link-Instanzen)
   - Setzt **`ud-shared-api`** voraus (liefert REST-Endpunkte für Seiten- und Tag-Auswahl)
@@ -48,7 +22,13 @@ Er ermöglicht es, thematische oder kategoriebasierte Linklisten automatisch zus
   - `ud/link-block` (direkt oder verschachtelt in `core/group`, `core/columns`, `core/cover`)
 
 
+## Screenshots
 
+![Frontend-Ansicht](./assets/ud-tagged-links-block.png)
+*Ansicht im Frontend*
+
+![Editor-Ansicht](./assets/editor-view.png)
+*Ansicht im Editor*
 
 
 
